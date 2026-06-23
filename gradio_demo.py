@@ -11,5 +11,5 @@ demo = gr.Interface(
     outputs=gr.Number() # Create numerical output fields
 )
 
-# Launch the interface
-demo.launch(server_name="127.0.0.1", server_port= 7860)
+# Launch the app, by setting share=True, to have a public URL
+demo.launch(server_name="127.0.0.1", server_port= 7860, share=True)
